@@ -2,7 +2,7 @@ quality = 2; // 0 - low, 1 - medium, 2 - high, 3 - benchmark
 wiretoggle = 0;
 raintoggle = 0;
 brushsize = 2;
-instructoggle = 0;
+instructoggle = 1;
 
 // World dimensions
 worldxlen = 65536*2;
