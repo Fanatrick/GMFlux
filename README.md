@@ -17,7 +17,7 @@ GMFlux comes with a packaged `.yyp` consisting of:
 - - !NOTICE! Due to an issue with GM:Studio's sampler bindings, ANGLE doesn't transpile vertex texture fetching operations. Currently the example renderer only works with VTF-supported platforms.
 
 ## Instructions
-- `git clone` this repo or download from releases.
+- `git clone` this repo or download from [releases](https://github.com/Fanatrick/GMFlux/releases/).
 - Open `GMFlux.yyp` with GM:Studio IDE (2.3+).
 - Refer to `Example/Object1` for additional instructions.
 
@@ -34,8 +34,8 @@ GMFlux comes with a packaged `.yyp` consisting of:
 
 <p align="center">Dynamic manipulation of terrain, depth and flow via render-target approach (akin to `surface_set_target()`)</p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/12619098/197279186-b80c7a58-e41f-4a1f-a137-97e18ad38bb7.gif">
-  <img src="https://user-images.githubusercontent.com/12619098/197280227-5009d67f-a2cc-40f9-b5e4-8d9d5244958e.gif">
+  <img width=360 src="https://user-images.githubusercontent.com/12619098/197279186-b80c7a58-e41f-4a1f-a137-97e18ad38bb7.gif">
+  <img width=360 src="https://user-images.githubusercontent.com/12619098/197280227-5009d67f-a2cc-40f9-b5e4-8d9d5244958e.gif">
 </p>
 
 <p align="center">Optimized fragment lookups and RGBA decoding allowing the CPU to process physics like buoyancy, flow, etc.</p>
@@ -46,8 +46,8 @@ GMFlux comes with a packaged `.yyp` consisting of:
 <p align="center">Dynamic ripples, waves, foam, wet surfaces, rain, caustics and fresnel reflections</p>
 <p align="center">Customizable color, opacity, reflection, fade, fall-off </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/12619098/197280439-c677bd26-554b-4521-88ef-8df10f576471.gif">
-  <img src="https://user-images.githubusercontent.com/12619098/197281021-bceccbe2-240e-4b41-ae1f-281ac1c9c794.gif">
+  <img width=360 src="https://user-images.githubusercontent.com/12619098/197280439-c677bd26-554b-4521-88ef-8df10f576471.gif">
+  <img width=360 src="https://user-images.githubusercontent.com/12619098/197281021-bceccbe2-240e-4b41-ae1f-281ac1c9c794.gif">
 </p>
 
 ## Todo
@@ -58,5 +58,5 @@ GMFlux comes with a packaged `.yyp` consisting of:
 - Multi-pass the flux step if possible (less total samples)
 
 ### Credits:
-- @XorDev : Non-cubemap skybox sampling method
-- polyhaven.com : Skybox image
+- [XorDev](https://github.com/XorDev/) : Non-cubemap skybox sampling method
+- [PolyHaven.com](https://polyhaven.com/) : Skybox image
