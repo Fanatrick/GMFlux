@@ -29,6 +29,7 @@ if (instructoggle) {
 	_instr += "Enter - Toggle wireframe (" + string(wiretoggle) + ")\n";
 	_instr += "Mouse Wheel - Brush size (" + (brushsize < 5 ? string(brushsize) : "Global") + ")\n";
 	_instr += "Mouse RB - Rotate view\n";
+	_instr += "I - Hide instructions\n";
 	var _oc = draw_get_color();
 	draw_set_color(c_black);
 	draw_text(8, 8, _instr);
