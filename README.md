@@ -29,7 +29,8 @@ GMFlux comes with a packaged `.yyp` consisting of:
 
 <p align="center">Process huge overworld simulations, as well as instanced pools, etc.</p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/12619098/197278491-37e95e5a-1feb-45a7-820a-27182379a309.gif">
+  <img height=300 src="https://user-images.githubusercontent.com/12619098/197369069-5539fb75-5079-47dc-af18-ba5884ea4032.gif">
+  <img height=300 src="https://user-images.githubusercontent.com/12619098/197278491-37e95e5a-1feb-45a7-820a-27182379a309.gif">
 </p>
 
 <p align="center">Dynamic manipulation of terrain, depth and flow via render-target approach (akin to `surface_set_target()`)</p>
