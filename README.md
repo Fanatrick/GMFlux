@@ -27,10 +27,10 @@ GMFlux comes with a packaged `.yyp` consisting of:
   <img src="https://user-images.githubusercontent.com/12619098/197278837-1b967714-12d9-48c3-8a0e-116548c4a152.gif">
 </p>
 
-<p align="center">Process huge overworld simulations, as well as instanced pools, etc.</p>
+<p align="center">Process huge overworld simulations, as well as instanced pools</p>
 <p align="center">
-  <img height=280 src="https://user-images.githubusercontent.com/12619098/197369069-5539fb75-5079-47dc-af18-ba5884ea4032.gif">
-  <img height=280 src="https://user-images.githubusercontent.com/12619098/197278491-37e95e5a-1feb-45a7-820a-27182379a309.gif">
+  <img height=230 src="https://user-images.githubusercontent.com/12619098/197369069-5539fb75-5079-47dc-af18-ba5884ea4032.gif">
+  <img height=230 src="https://user-images.githubusercontent.com/12619098/197278491-37e95e5a-1feb-45a7-820a-27182379a309.gif">
 </p>
 
 <p align="center">Dynamic manipulation of terrain, depth and flow via render-target approach (akin to `surface_set_target()`)</p>
@@ -45,7 +45,7 @@ GMFlux comes with a packaged `.yyp` consisting of:
 </p>
 
 <p align="center">Dynamic ripples, waves, foam, wet surfaces, rain, caustics and fresnel reflections</p>
-<p align="center">Customizable color, opacity, reflection, fade, fall-off </p>
+<p align="center">Customizable color, opacity, reflection, fade, fall-off and more</p>
 <p align="center">
   <img width=360 src="https://user-images.githubusercontent.com/12619098/197280439-c677bd26-554b-4521-88ef-8df10f576471.gif">
   <img width=360 src="https://user-images.githubusercontent.com/12619098/197281021-bceccbe2-240e-4b41-ae1f-281ac1c9c794.gif">
@@ -56,7 +56,9 @@ GMFlux comes with a packaged `.yyp` consisting of:
 - Switch the `FluxCell.FluxLD` and `FluxCell.FluxRU` encoding to each handle one dimension (sample same index for each dimension instead of this multi-sampled horror)
 - Projected instead of embedded caustics
 - Implement optional, even more detailed inter-cardinal flux
-- Multi-pass the flux step if possible (less total samples)
+- Multi-pass the flux step
+- Replace the scuffed vec4 encoding
+- HLSL backend
 
 ### Credits:
 - [XorDev](https://github.com/XorDev/) : Non-cubemap skybox sampling method
