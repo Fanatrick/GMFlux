@@ -15,6 +15,7 @@ GMFlux comes with a packaged `.yyp` consisting of:
 - GLSL-ES shader backend `GMFlux/glsl-es/`
 - Example VTF-based renderer `Example/`
 - - !NOTICE! Due to an issue with GM:Studio's sampler bindings, ANGLE doesn't transpile vertex texture fetching operations. Currently the example renderer only works with VTF-supported platforms.
+- - If you're using a VTF extension for desktop, this also means ANGLE will whine and won't compile across HLSL platforms without additional configurations
 
 ## Instructions
 - `git clone` this repo or download from [releases](https://github.com/Fanatrick/GMFlux/releases/).
@@ -56,9 +57,11 @@ GMFlux comes with a packaged `.yyp` consisting of:
 - Switch the `FluxCell.FluxLD` and `FluxCell.FluxRU` encoding to each handle one dimension (sample same index for each dimension instead of this multi-sampled horror)
 - Projected instead of embedded caustics
 - Implement optional, even more detailed inter-cardinal flux
+- Implement additional fragment lookup method relying on vertex indexing instead of passed uniforms
 - Multi-pass the flux step
 - Replace the scuffed vec4 encoding
 - HLSL backend
+
 
 ### Credits:
 - [XorDev](https://github.com/XorDev/) : Non-cubemap skybox sampling method
