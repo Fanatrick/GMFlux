@@ -390,7 +390,6 @@ function GMFlux_container(_tsize = 4096) constructor {
 		_g = buffer_read(lookupBuffer, buffer_u8);
 		_b = buffer_read(lookupBuffer, buffer_u8);
 		_a = buffer_read(lookupBuffer, buffer_u8);
-		show_debug_message([_r, _g, _b, _a]);
 		return [_r, _g, _b, _a];
 	}
 	
@@ -435,7 +434,7 @@ function GMFlux_container(_tsize = 4096) constructor {
 	// Destructor
 	static free = function() {
 	/// @func			free()
-	/// @description	free everything and mark self for GC
+	/// @description	free everything
 		surfaceFree();
 		surfaceSnapshotFree();
 		lookupFree();
