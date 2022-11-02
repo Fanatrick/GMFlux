@@ -61,7 +61,8 @@ GMFlux comes with a packaged `.yyp` consisting of:
 - Multi-pass the flux step
 - Replace the scuffed vec4 encoding
 - HLSL backend
-
+- Feather compliance
+- Better docs and better, more documented example
 
 ### Credits:
 - [XorDev](https://github.com/XorDev/) : Non-cubemap skybox sampling method
