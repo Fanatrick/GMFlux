@@ -60,6 +60,7 @@ GMFlux comes with a packaged `.yyp` consisting of:
 - Implement additional fragment lookup method relying on vertex indexing instead of passed uniforms
 - Multi-pass the flux step
 - Replace the scuffed vec4 encoding
+- Navier-Stokes alternative advection solver
 - HLSL backend
 - Feather compliance
 - Better docs and better, more documented example
